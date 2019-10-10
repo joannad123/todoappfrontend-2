@@ -7,7 +7,7 @@ import Footer from "./Components/Footer";
 import AllTodos from "./Components/AllTodos";
 import AddTodo from "./Components/AddTodo";
 
-const TODOSURL = `http://localhost:4000/todos`;
+const TODOSURL = `http://localhost:5000`;
 
 const App = () => {
   const [todos, setTodos] = useState([]);
