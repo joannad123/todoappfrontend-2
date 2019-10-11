@@ -7,8 +7,8 @@ import Footer from "./Components/Footer";
 import AllTodos from "./Components/AllTodos";
 import AddTodo from "./Components/AddTodo";
 
-//const TODOSURL = `http://3.9.23.240:5000`;
-const TODOSURL = `http://34.245.20.245:5000`;
+const TODOSURL = `http://3.9.23.240:5000`;
+//const TODOSURL = `http://34.245.20.245:5000`;
 
 const App = () => {
   const [todos, setTodos] = useState([]);
